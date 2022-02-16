@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="/project2/board-games/group 26.ico" />
+
+    <title>桌遊空間資料庫管理</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet" />
+    <style>
+      figure {
+        background: #000;
+        /* height: 100px; */
+      }
+      .cover-fit {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">桌遊空間</a>
+
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="logout.php">登出</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="https://localhost/project2/Team3.html"
+                >
+                  <span data-feather="home"></span>
+                  Home <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://localhost/project2/member/member-list.php"
+                >
+                  <span data-feather="users"></span>
+                  會員管理
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://localhost/project2/commodity/product-list.php"
+                >
+                  <span data-feather="shopping-cart"></span>
+                  商品管理
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://localhost/project2/forum/forum-list.php"
+                >
+                  <span data-feather="file-text"></span>
+                  遊戲討論區管理
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+          <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          >
+            <h1 class="h2">Home</h1>
+          </div>
+          <canvas class="my-4" id="myChart" width="900" height="80"></canvas>
+          <div
+            class="col-lg-12 mb-3 d-flex justify-content-center align-items-center"
+          >
+            <div class="card mx-5">
+              <figure class="rounded">
+                <div>
+                  <a href="https://localhost/project2/member/member-list.php"
+                    ><img
+                      src="/img/board-games/消失的主角.png"
+                      alt="會員管理"
+                      class="cover-fit img-responsive"
+                  /></a>
+                </div>
+              </figure>
+              <div class="p-2">
+                <a href="https://localhost/project2/member/member-list.php">
+                  <h3 class="h5 text-center">會員管理</h3></a
+                >
+              </div>
+            </div>
+            <div class="card mx-5">
+              <figure class="rounded">
+                <div>
+                  <a
+                    href="https://localhost/project2/commodity/product-list.php"
+                    ><img
+                      src="/img/board-games/翻滾刺蝟.png"
+                      alt="商品管理"
+                      class="cover-fit"
+                  /></a>
+                </div>
+              </figure>
+              <div class="p-2">
+                <a href=""> <h3 class="h5 text-center">商品管理</h3></a>
+              </div>
+            </div>
+            <div class="card mx-5">
+              <figure class="rounded">
+                <div>
+                  <a href="https://localhost/project2/forum/forum-list.php"
+                    ><img
+                      src="/img/board-games/四季物語.png"
+                      alt="遊戲討論區管理"
+                      class="cover-fit"
+                  /></a>
+                </div>
+              </figure>
+              <div class="p-2">
+                <a href="https://localhost/project2/forum/forum-list.php">
+                  <h3 class="h5 text-center">遊戲討論區管理</h3></a
+                >
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="jquery-slim.min.js"><\/script>');
+    </script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script></script>
+  </body>
+</html>
