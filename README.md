@@ -27,6 +27,6 @@
 1. [刪除會員](https://github.com/yichenkung/phpCRUD/blob/main/member/deleteMember-list.php)
 ![](https://github.com/yichenkung/phpCRUD/blob/main/gif/Delete%20Member.gif)
 2. [刪除商品](https://github.com/yichenkung/phpCRUD/blob/main/commodity/deleteProduct-list.php)
-![](https://github.com/yichenkung/phpCRUD/blob/main/gif/Update%20Product.gif)
+![](https://github.com/yichenkung/phpCRUD/blob/main/gif/Delete%20Product.gif)
 3. [刪除文章](https://github.com/yichenkung/phpCRUD/blob/main/forum/deleteForum-list.php)
 ![](https://github.com/yichenkung/phpCRUD/blob/main/gif/Delete%20Forum.gif)
